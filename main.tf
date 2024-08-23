@@ -15,10 +15,18 @@ provider "aws" {
 
 resource "aws_s3_bucket" "study-bucket" {
   bucket = "tf-study-bucket"
-
+  
   tags = {
     Name        = "study bucket"
     Environment = "Dev"
     CreatedAt   = "2024-08-21"
+    ManageBy    = "Terraform"
+  }
+}
+
+resource "aws_s3_bucket_versioning" "versioning_example" {
+  bucket = aws_s3_bucket.study-bucket.id
+  versioning_configuration {
+    status = "Enabled"
   }
 }
