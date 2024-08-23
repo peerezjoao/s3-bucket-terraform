@@ -12,5 +12,5 @@
 
 # Links
   * <a href="https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Versioning.html">Versionamento em Buckets</a>
-  * <a href="https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Versioning.html](https://aws.amazon.com/pt/cli/">AWS CLI</a>
-  * <a href="https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Versioning.html](https://registry.terraform.io/providers/hashicorp/aws/latest/docs">Docs Terraform AWS</a>  
+  * <a href="https://aws.amazon.com/pt/cli/">AWS CLI</a>
+  * <a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs">Docs Terraform AWS</a>  
